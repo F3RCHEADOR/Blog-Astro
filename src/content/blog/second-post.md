@@ -1,10 +1,8 @@
 ---
 title: "My Second Post"
 pubDate: "Sep 20 2022"
-heroImage: "https://generated.vusercontent.net/placeholder.svg"
+heroImage: "/assets/placeholder-2.webp"
 tags: ["Music","Art"]
-
-
 ---
 
 ## Sub Titulo Principal

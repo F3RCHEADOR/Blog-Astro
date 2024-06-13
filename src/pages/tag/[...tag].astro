@@ -1,0 +1,10 @@
+---
+import { getAllTags } from "@/utils/getAllTags";
+import type { GetStaticPaths } from "astro";
+export const getStaticPaths = (async () => {
+    const tags = (await getAllTags()).map((tag) => tag.toLowerCase());
+    return tags.map((tag) => ({
+        params: { tag },
+    }));
+}) satisfies GetStaticPaths;
+---
